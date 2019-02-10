@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>::My shop</title>
+    <link href="css/jquery.bxslider.css?v=1" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="subheader">
+                <div class="container">
+                    <p> world fastest online shopping place</p>
+                    <a href="#">Guest</a>
+                    <a href="#">Consumer</a>
+                    <a href="#">Download App</a>
+                    <a href="#">Help</a>
+                </div>
+            </div> 
+            
+            <!--==main header==-->
+            <div id="main-header">
+                <!--logo-->
+                <div id="logo">
+                    <span id="ist">Web</span><span id="iist">shop.com</span> 
+                </div> 
+                <!--==search area==-->
+                <div id="search">
+                    <form action="">
+                        <input type="text" name="search-here" placeholder="Search here" class="Search-area">
+                        <input type="sumbit" name="submit" class="search-btn" value="SEARCH" style="text-align:center">
+                    </form>               
+                    
+                <!--==user menu==-->
+                    <div id="user-menu">
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Login</a></li>
+                    </div>
+                </div>
+                <!----=====navigation bar ==--->
+
+                    
+                <div id ="navigation">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">New arrivals</a>
+                        <a href="#">Deals</a>
+                        <a href="#">Electronics</a>
+                        <a href="#">Accessrories</a>
+                        <a href="#">Products</a>
+                        <a href="#">Order</a> 
+                    </nav>
+                </div>
+                <!--============home slider==-->
+                <div id="slider">
+                    <ul id="mybxslider" class="bxslider">
+                        <li><img src="images/img3.jpg"></li>
+                        <li><img src="images/img2.jpg"></li>
+                        <li><img src="images/img1.jpg"></li>
+                        <li><img src="images/img4.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!--<script src="js/my.js"></script>-->
+    <script type="application/javascript">        
+        $(document).ready(function(){
+          //$('#demoSlider').bxSlider();
+           $('#mybxslider').bxSlider({
+               mode:'horizontal'
+           });
+        });
+    </script>
+    
+    
+</body>        
+
+</html>
